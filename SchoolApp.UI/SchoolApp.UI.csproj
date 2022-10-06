@@ -46,6 +46,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\AdminForms\ClassOperations\FrmAdminPanel_AddClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AdminForms\ClassOperations\FrmAdminPanel_AddClass.Designer.cs">
+      <DependentUpon>FrmAdminPanel_AddClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AdminForms\ClassOperations\FrmAdminPanel_ClassOperations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AdminForms\ClassOperations\FrmAdminPanel_ClassOperations.Designer.cs">
+      <DependentUpon>FrmAdminPanel_ClassOperations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AdminForms\ClassOperations\FrmAdminPanel_ClassTeachers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AdminForms\ClassOperations\FrmAdminPanel_ClassTeachers.Designer.cs">
+      <DependentUpon>FrmAdminPanel_ClassTeachers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AdminForms\ClassOperations\FrmAdminPanel_UpdateClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AdminForms\ClassOperations\FrmAdminPanel_UpdateClass.Designer.cs">
+      <DependentUpon>FrmAdminPanel_UpdateClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AdminForms\ExamOperations\FrmAdminPanel_ExamOperations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AdminForms\ExamOperations\FrmAdminPanel_ExamOperations.Designer.cs">
+      <DependentUpon>FrmAdminPanel_ExamOperations.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\AdminForms\FrmAdminPanel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +87,12 @@
     </Compile>
     <Compile Include="Forms\AdminForms\StudentOperations\FrmAdminPanel_AddStudent.Designer.cs">
       <DependentUpon>FrmAdminPanel_AddStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AdminForms\StudentOperations\FrmAdminPanel_DeleteStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AdminForms\StudentOperations\FrmAdminPanel_DeleteStudent.Designer.cs">
+      <DependentUpon>FrmAdminPanel_DeleteStudent.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\AdminForms\StudentOperations\FrmAdminPanel_StudentList.cs">
       <SubType>Form</SubType>
@@ -75,6 +111,36 @@
     </Compile>
     <Compile Include="Forms\AdminForms\StudentOperations\FrmAdminPanel_UpdateStudent.Designer.cs">
       <DependentUpon>FrmAdminPanel_UpdateStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AdminForms\TeacherOperations\FrmAdminPanel_AddTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AdminForms\TeacherOperations\FrmAdminPanel_AddTeacher.Designer.cs">
+      <DependentUpon>FrmAdminPanel_AddTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AdminForms\TeacherOperations\FrmAdminPanel_DeleteTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AdminForms\TeacherOperations\FrmAdminPanel_DeleteTeacher.Designer.cs">
+      <DependentUpon>FrmAdminPanel_DeleteTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AdminForms\TeacherOperations\FrmAdminPanel_TeacherList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AdminForms\TeacherOperations\FrmAdminPanel_TeacherList.Designer.cs">
+      <DependentUpon>FrmAdminPanel_TeacherList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AdminForms\TeacherOperations\FrmAdminPanel_TeacherOperations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AdminForms\TeacherOperations\FrmAdminPanel_TeacherOperations.Designer.cs">
+      <DependentUpon>FrmAdminPanel_TeacherOperations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AdminForms\TeacherOperations\FrmAdminPanel_UpdateTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AdminForms\TeacherOperations\FrmAdminPanel_UpdateTeacher.Designer.cs">
+      <DependentUpon>FrmAdminPanel_UpdateTeacher.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Form1.cs">
       <SubType>Form</SubType>
@@ -108,14 +174,53 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\AdminForms\ClassOperations\FrmAdminPanel_AddClass.resx">
+      <DependentUpon>FrmAdminPanel_AddClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AdminForms\ClassOperations\FrmAdminPanel_ClassOperations.resx">
+      <DependentUpon>FrmAdminPanel_ClassOperations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AdminForms\ClassOperations\FrmAdminPanel_ClassTeachers.resx">
+      <DependentUpon>FrmAdminPanel_ClassTeachers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AdminForms\ClassOperations\FrmAdminPanel_UpdateClass.resx">
+      <DependentUpon>FrmAdminPanel_UpdateClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AdminForms\ExamOperations\FrmAdminPanel_ExamOperations.resx">
+      <DependentUpon>FrmAdminPanel_ExamOperations.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\AdminForms\FrmAdminPanel.resx">
       <DependentUpon>FrmAdminPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AdminForms\StudentOperations\FrmAdminPanel_AddStudent.resx">
+      <DependentUpon>FrmAdminPanel_AddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AdminForms\StudentOperations\FrmAdminPanel_DeleteStudent.resx">
+      <DependentUpon>FrmAdminPanel_DeleteStudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\AdminForms\StudentOperations\FrmAdminPanel_StudentList.resx">
       <DependentUpon>FrmAdminPanel_StudentList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\AdminForms\StudentOperations\FrmAdminPanel_StudentOperations.resx">
       <DependentUpon>FrmAdminPanel_StudentOperations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AdminForms\StudentOperations\FrmAdminPanel_UpdateStudent.resx">
+      <DependentUpon>FrmAdminPanel_UpdateStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AdminForms\TeacherOperations\FrmAdminPanel_AddTeacher.resx">
+      <DependentUpon>FrmAdminPanel_AddTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AdminForms\TeacherOperations\FrmAdminPanel_DeleteTeacher.resx">
+      <DependentUpon>FrmAdminPanel_DeleteTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AdminForms\TeacherOperations\FrmAdminPanel_TeacherList.resx">
+      <DependentUpon>FrmAdminPanel_TeacherList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AdminForms\TeacherOperations\FrmAdminPanel_TeacherOperations.resx">
+      <DependentUpon>FrmAdminPanel_TeacherOperations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AdminForms\TeacherOperations\FrmAdminPanel_UpdateTeacher.resx">
+      <DependentUpon>FrmAdminPanel_UpdateTeacher.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -168,5 +273,6 @@
       <Name>SchoolApp.FacadeLayer</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
