@@ -44,10 +44,6 @@ namespace SchoolApp.UI.Forms.AdminForms
             frm.Show();
         }
 
-        private void btnExamOperations_Click(object sender, EventArgs e)
-        {
-            ExamOperations.FrmAdminPanel_ExamOperations frm = new ExamOperations.FrmAdminPanel_ExamOperations();
-            frm.Show();
-        }
+        
     }
 }

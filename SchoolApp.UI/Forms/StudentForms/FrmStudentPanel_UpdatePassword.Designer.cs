@@ -33,7 +33,7 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtPasswordAgain = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -61,6 +61,7 @@
             this.btnUpdate.TabIndex = 7;
             this.btnUpdate.Text = "Güncelle";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // txtPassword
             // 
@@ -78,12 +79,12 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "Yeni Parola :";
             // 
-            // textBox1
+            // txtPasswordAgain
             // 
-            this.textBox1.Location = new System.Drawing.Point(200, 91);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(218, 30);
-            this.textBox1.TabIndex = 11;
+            this.txtPasswordAgain.Location = new System.Drawing.Point(200, 91);
+            this.txtPasswordAgain.Name = "txtPasswordAgain";
+            this.txtPasswordAgain.Size = new System.Drawing.Size(218, 30);
+            this.txtPasswordAgain.TabIndex = 11;
             // 
             // label3
             // 
@@ -99,7 +100,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(494, 266);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtPasswordAgain);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtPasswordConfirm);
             this.Controls.Add(this.label2);
@@ -123,7 +124,7 @@
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtPasswordAgain;
         private System.Windows.Forms.Label label3;
     }
 }

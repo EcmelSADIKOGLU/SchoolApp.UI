@@ -11,6 +11,28 @@ namespace SchoolApp.FacadeLayer.DAL
 {
     public class DALStudent
     {
+        public static void DALUpdateMail(string username, string mail)
+        {
+            DbConnection.connection.Open();
+            SqlCommand cmd = new SqlCommand("update tblStudent set StudentMail = @p1 where StudentUserName = @p2", DbConnection.connection);
+            cmd.Parameters.AddWithValue("@p1", mail);
+            cmd.Parameters.AddWithValue("@p2", username);
+            cmd.ExecuteNonQuery();
+
+            DbConnection.connection.Close();
+
+        }
+        public static void DALUpdatePassword(string username, string password)
+        {
+            DbConnection.connection.Open();
+            SqlCommand cmd = new SqlCommand("update tblStudent set StudentPassword = @p1 where StudentUserName = @p2", DbConnection.connection);
+            cmd.Parameters.AddWithValue("@p1", password);
+            cmd.Parameters.AddWithValue("@p2", username);
+            cmd.ExecuteNonQuery();
+
+            DbConnection.connection.Close();
+
+        }
         public static bool DALisStudent(string UserName, string Password)
         {
             bool isStudent = false;
@@ -63,6 +85,7 @@ namespace SchoolApp.FacadeLayer.DAL
                 student.StudentClass = reader["ClassName"].ToString();
                 student.StudentCity = reader["CityName"].ToString();
                 student.StudentMail = reader["StudentMail"].ToString();
+                student.StudentPassword = reader["StudentPassword"].ToString();
             }
 
             DbConnection.connection.Close();
