@@ -12,9 +12,16 @@ namespace SchoolApp.UI.Forms.StudentForms
 {
     public partial class FrmStudentPanel_UpdateMail : Form
     {
-        public FrmStudentPanel_UpdateMail()
+        string username;
+        public FrmStudentPanel_UpdateMail(string username)
         {
             InitializeComponent();
+            this.username = username;
+        }
+
+        private void FrmStudentPanel_UpdateMail_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

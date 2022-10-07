@@ -31,7 +31,6 @@
             this.btnStudentOperations = new System.Windows.Forms.Button();
             this.btnTeacherOperations = new System.Windows.Forms.Button();
             this.btnClassOperations = new System.Windows.Forms.Button();
-            this.btnExamOperations = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnStudentOperations
@@ -64,22 +63,11 @@
             this.btnClassOperations.UseVisualStyleBackColor = true;
             this.btnClassOperations.Click += new System.EventHandler(this.btnClassOperations_Click);
             // 
-            // btnExamOperations
-            // 
-            this.btnExamOperations.Location = new System.Drawing.Point(47, 298);
-            this.btnExamOperations.Name = "btnExamOperations";
-            this.btnExamOperations.Size = new System.Drawing.Size(259, 57);
-            this.btnExamOperations.TabIndex = 3;
-            this.btnExamOperations.Text = "Sınav İşlemleri";
-            this.btnExamOperations.UseVisualStyleBackColor = true;
-            this.btnExamOperations.Click += new System.EventHandler(this.btnExamOperations_Click);
-            // 
             // FrmAdminPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(375, 420);
-            this.Controls.Add(this.btnExamOperations);
+            this.ClientSize = new System.Drawing.Size(375, 329);
             this.Controls.Add(this.btnClassOperations);
             this.Controls.Add(this.btnTeacherOperations);
             this.Controls.Add(this.btnStudentOperations);
@@ -97,6 +85,5 @@
         private System.Windows.Forms.Button btnStudentOperations;
         private System.Windows.Forms.Button btnTeacherOperations;
         private System.Windows.Forms.Button btnClassOperations;
-        private System.Windows.Forms.Button btnExamOperations;
     }
 }

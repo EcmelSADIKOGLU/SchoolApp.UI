@@ -11,6 +11,18 @@ namespace SchoolApp.FacadeLayer.DAL
 {
     public class DALTeacher
     {
+        public static bool DALisTeacher(string UserName, string Password)
+        {
+            bool isTeacher = false;
+            DbConnection.connection.Open();
+            SqlCommand cmd = new SqlCommand("select * from tblTeacher where TeacherUserName = @p1 and TeacherPassword =  @p2", DbConnection.connection);
+            cmd.Parameters.AddWithValue("@p1", UserName);
+            cmd.Parameters.AddWithValue("@p2", Password);
+            SqlDataReader reader = cmd.ExecuteReader();
+            isTeacher = reader.HasRows;
+            DbConnection.connection.Close();
+            return isTeacher;
+        }
         public static List<Teacher> DALTeacherList()
         {
             List<Teacher> teachers = new List<Teacher>();

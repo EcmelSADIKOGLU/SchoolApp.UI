@@ -28,58 +28,62 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnProfil = new System.Windows.Forms.Button();
+            this.btnNotes = new System.Windows.Forms.Button();
+            this.btnLessons = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnProfil
             // 
-            this.button1.Location = new System.Drawing.Point(55, 55);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(174, 56);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Profil";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnProfil.Location = new System.Drawing.Point(52, 40);
+            this.btnProfil.Name = "btnProfil";
+            this.btnProfil.Size = new System.Drawing.Size(174, 56);
+            this.btnProfil.TabIndex = 0;
+            this.btnProfil.Text = "Profil";
+            this.btnProfil.UseVisualStyleBackColor = true;
+            this.btnProfil.Click += new System.EventHandler(this.btnProfil_Click);
             // 
-            // button2
+            // btnNotes
             // 
-            this.button2.Location = new System.Drawing.Point(55, 127);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(174, 56);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Notlar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnNotes.Location = new System.Drawing.Point(52, 112);
+            this.btnNotes.Name = "btnNotes";
+            this.btnNotes.Size = new System.Drawing.Size(174, 56);
+            this.btnNotes.TabIndex = 1;
+            this.btnNotes.Text = "Notlar";
+            this.btnNotes.UseVisualStyleBackColor = true;
+            this.btnNotes.Click += new System.EventHandler(this.btnNotes_Click);
             // 
-            // button3
+            // btnLessons
             // 
-            this.button3.Location = new System.Drawing.Point(55, 205);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(174, 56);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Dersler";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnLessons.Location = new System.Drawing.Point(52, 191);
+            this.btnLessons.Name = "btnLessons";
+            this.btnLessons.Size = new System.Drawing.Size(174, 56);
+            this.btnLessons.TabIndex = 2;
+            this.btnLessons.Text = "Dersler";
+            this.btnLessons.UseVisualStyleBackColor = true;
+            this.btnLessons.Click += new System.EventHandler(this.btnLessons_Click);
             // 
             // FrmStudentPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(297, 293);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnLessons);
+            this.Controls.Add(this.btnNotes);
+            this.Controls.Add(this.btnProfil);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmStudentPanel";
             this.Text = "FrmStudentPanel";
+            this.Load += new System.EventHandler(this.FrmStudentPanel_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnProfil;
+        private System.Windows.Forms.Button btnNotes;
+        private System.Windows.Forms.Button btnLessons;
     }
 }

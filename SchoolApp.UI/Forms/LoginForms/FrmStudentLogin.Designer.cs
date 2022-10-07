@@ -52,6 +52,7 @@
             this.btnLogin.TabIndex = 1;
             this.btnLogin.Text = "Giriş";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // txtUserName
             // 
@@ -59,6 +60,7 @@
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(208, 30);
             this.txtUserName.TabIndex = 2;
+            this.txtUserName.Text = "S4512367";
             // 
             // txtPassword
             // 
@@ -66,6 +68,7 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(208, 30);
             this.txtPassword.TabIndex = 4;
+            this.txtPassword.Text = "FWE7TF";
             // 
             // label2
             // 

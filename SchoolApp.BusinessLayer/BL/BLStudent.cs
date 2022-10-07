@@ -10,6 +10,13 @@ namespace SchoolApp.BusinessLayer.BL
 {
     public class BLStudent
     {
+        public static bool BLisStudent(string UserName, string Password)
+        {
+            if (true)
+            {
+                DALStudent.DALisStudent(UserName, Password);
+            }
+        }
         public static List<Student> BLStudentList()
         {
             if (true)

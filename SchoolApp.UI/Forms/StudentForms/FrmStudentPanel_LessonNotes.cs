@@ -12,9 +12,16 @@ namespace SchoolApp.UI.Forms.StudentForms
 {
     public partial class FrmStudentPanel_LessonNotes : Form
     {
-        public FrmStudentPanel_LessonNotes()
+        string username;
+        public FrmStudentPanel_LessonNotes(string username)
         {
             InitializeComponent();
+            this.username = username;
+        }
+
+        private void FrmStudentPanel_LessonNotes_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

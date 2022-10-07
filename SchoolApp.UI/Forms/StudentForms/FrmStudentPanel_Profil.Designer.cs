@@ -61,6 +61,7 @@
             this.btnUpdateMail.TabIndex = 2;
             this.btnUpdateMail.Text = "Güncelle";
             this.btnUpdateMail.UseVisualStyleBackColor = true;
+            this.btnUpdateMail.Click += new System.EventHandler(this.btnUpdateMail_Click);
             // 
             // label2
             // 
@@ -133,6 +134,7 @@
             this.btnUpdatePassword.TabIndex = 10;
             this.btnUpdatePassword.Text = "Güncelle";
             this.btnUpdatePassword.UseVisualStyleBackColor = true;
+            this.btnUpdatePassword.Click += new System.EventHandler(this.btnUpdatePassword_Click);
             // 
             // label6
             // 
@@ -193,6 +195,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmStudentPanel_Profil";
             this.Text = "FrmStudentPanel_Profil";
+            this.Load += new System.EventHandler(this.FrmStudentPanel_Profil_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -13,15 +13,15 @@ namespace SchoolApp.FacadeLayer.DAL
     {
         public static bool DALisAdmin(string UserName, string Password)
         {
-            bool isHasRows = false;
+            bool isAdmin = false;
             DbConnection.connection.Open();
             SqlCommand cmd = new SqlCommand("select * from tblAdmin where AdminUserName = @p1 and AdminPassword =  @p2", DbConnection.connection);
             cmd.Parameters.AddWithValue("@p1", UserName);
             cmd.Parameters.AddWithValue("@p2", Password);
             SqlDataReader reader = cmd.ExecuteReader();
-            isHasRows = reader.HasRows;
+            isAdmin = reader.HasRows;
             DbConnection.connection.Close();
-            return isHasRows;
+            return isAdmin;
         }
         public static Admin DALGetAdmin(string UserName)
         {

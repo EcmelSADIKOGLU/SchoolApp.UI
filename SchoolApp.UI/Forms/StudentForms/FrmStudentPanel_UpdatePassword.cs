@@ -12,9 +12,16 @@ namespace SchoolApp.UI.Forms.StudentForms
 {
     public partial class FrmStudentPanel_UpdatePassword : Form
     {
-        public FrmStudentPanel_UpdatePassword()
+        string username;
+        public FrmStudentPanel_UpdatePassword(string username)
         {
             InitializeComponent();
+            this.username = username;
+        }
+
+        private void FrmStudentPanel_UpdatePassword_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -110,6 +110,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmStudentPanel_UpdatePassword";
             this.Text = "FrmStudentPanel_UpdatePassword";
+            this.Load += new System.EventHandler(this.FrmStudentPanel_UpdatePassword_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

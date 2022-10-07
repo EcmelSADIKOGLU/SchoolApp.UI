@@ -70,12 +70,6 @@
     <Compile Include="Forms\AdminForms\ClassOperations\FrmAdminPanel_UpdateClass.Designer.cs">
       <DependentUpon>FrmAdminPanel_UpdateClass.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\AdminForms\ExamOperations\FrmAdminPanel_ExamOperations.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\AdminForms\ExamOperations\FrmAdminPanel_ExamOperations.Designer.cs">
-      <DependentUpon>FrmAdminPanel_ExamOperations.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\AdminForms\FrmAdminPanel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -245,9 +239,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\AdminForms\ClassOperations\FrmAdminPanel_UpdateClass.resx">
       <DependentUpon>FrmAdminPanel_UpdateClass.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\AdminForms\ExamOperations\FrmAdminPanel_ExamOperations.resx">
-      <DependentUpon>FrmAdminPanel_ExamOperations.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\AdminForms\FrmAdminPanel.resx">
       <DependentUpon>FrmAdminPanel.cs</DependentUpon>

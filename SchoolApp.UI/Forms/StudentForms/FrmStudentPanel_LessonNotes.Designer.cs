@@ -52,6 +52,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmStudentPanel_LessonNotes";
             this.Text = "FrmStudentPanel_LessonNotes";
+            this.Load += new System.EventHandler(this.FrmStudentPanel_LessonNotes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 

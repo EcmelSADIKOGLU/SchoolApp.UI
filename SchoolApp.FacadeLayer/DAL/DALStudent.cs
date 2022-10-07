@@ -11,6 +11,18 @@ namespace SchoolApp.FacadeLayer.DAL
 {
     public class DALStudent
     {
+        public static bool DALisStudent(string UserName, string Password)
+        {
+            bool isStudent = false;
+            DbConnection.connection.Open();
+            SqlCommand cmd = new SqlCommand("select * from tblStudent where StudentUserName = @p1 and StudentPassword =  @p2", DbConnection.connection);
+            cmd.Parameters.AddWithValue("@p1", UserName);
+            cmd.Parameters.AddWithValue("@p2", Password);
+            SqlDataReader reader = cmd.ExecuteReader();
+            isStudent = reader.HasRows;
+            DbConnection.connection.Close();
+            return isStudent;
+        }
         public static void DALDeleteStudent(string Username)
         {
             DbConnection.connection.Open();

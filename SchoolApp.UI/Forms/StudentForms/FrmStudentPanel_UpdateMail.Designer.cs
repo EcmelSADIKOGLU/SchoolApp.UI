@@ -90,6 +90,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmStudentPanel_UpdateMail";
             this.Text = "FrmStudentPanel_UpdateMail";
+            this.Load += new System.EventHandler(this.FrmStudentPanel_UpdateMail_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

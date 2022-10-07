@@ -45,6 +45,7 @@
     <Compile Include="BL\BLBranch.cs" />
     <Compile Include="BL\BLClass.cs" />
     <Compile Include="BL\BLStudent.cs" />
+    <Compile Include="BL\BLTeacher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
