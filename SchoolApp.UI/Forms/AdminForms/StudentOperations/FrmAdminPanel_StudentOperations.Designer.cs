@@ -52,6 +52,7 @@
             this.btnStudentAdd.TabIndex = 1;
             this.btnStudentAdd.Text = "Öğrenci Ekle";
             this.btnStudentAdd.UseVisualStyleBackColor = true;
+            this.btnStudentAdd.Click += new System.EventHandler(this.btnStudentAdd_Click);
             // 
             // btnStudentUpdate
             // 
@@ -61,6 +62,7 @@
             this.btnStudentUpdate.TabIndex = 2;
             this.btnStudentUpdate.Text = "Öğrenci Güncelle";
             this.btnStudentUpdate.UseVisualStyleBackColor = true;
+            this.btnStudentUpdate.Click += new System.EventHandler(this.btnStudentUpdate_Click);
             // 
             // button1
             // 
@@ -70,6 +72,7 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "Öğrenci Sil";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FrmAdminPanel_StudentOperations
             // 

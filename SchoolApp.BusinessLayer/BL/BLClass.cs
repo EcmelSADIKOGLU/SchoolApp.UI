@@ -26,5 +26,6 @@ namespace SchoolApp.BusinessLayer.BL
         {
             DALClass.DALUpdateClass(cls);
         }
+
     }
 }

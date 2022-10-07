@@ -16,5 +16,23 @@ namespace SchoolApp.UI.Forms.AdminForms.ClassOperations
         {
             InitializeComponent();
         }
+
+        private void btnUpdateClass_Click(object sender, EventArgs e)
+        {
+            FrmAdminPanel_UpdateClass frm = new FrmAdminPanel_UpdateClass();
+            frm.ShowDialog();
+        }
+
+        private void btnAddClass_Click(object sender, EventArgs e)
+        {
+            FrmAdminPanel_AddClass frm = new FrmAdminPanel_AddClass();
+            frm.ShowDialog();
+        }
+
+        private void btnClassTeachers_Click(object sender, EventArgs e)
+        {
+            FrmAdminPanel_ClassTeachers frm = new FrmAdminPanel_ClassTeachers();
+            frm.ShowDialog();
+        }
     }
 }

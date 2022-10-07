@@ -52,6 +52,7 @@
             this.btnTeacherOperations.TabIndex = 1;
             this.btnTeacherOperations.Text = "Öğretmen İşlemleri";
             this.btnTeacherOperations.UseVisualStyleBackColor = true;
+            this.btnTeacherOperations.Click += new System.EventHandler(this.btnTeacherOperations_Click);
             // 
             // btnClassOperations
             // 
@@ -61,6 +62,7 @@
             this.btnClassOperations.TabIndex = 2;
             this.btnClassOperations.Text = "Sınıf İşlemleri";
             this.btnClassOperations.UseVisualStyleBackColor = true;
+            this.btnClassOperations.Click += new System.EventHandler(this.btnClassOperations_Click);
             // 
             // btnExamOperations
             // 
@@ -70,6 +72,7 @@
             this.btnExamOperations.TabIndex = 3;
             this.btnExamOperations.Text = "Sınav İşlemleri";
             this.btnExamOperations.UseVisualStyleBackColor = true;
+            this.btnExamOperations.Click += new System.EventHandler(this.btnExamOperations_Click);
             // 
             // FrmAdminPanel
             // 

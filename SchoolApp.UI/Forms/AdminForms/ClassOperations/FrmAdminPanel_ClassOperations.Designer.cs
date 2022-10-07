@@ -41,6 +41,7 @@
             this.btnUpdateClass.TabIndex = 0;
             this.btnUpdateClass.Text = "Sınıf Güncelle";
             this.btnUpdateClass.UseVisualStyleBackColor = true;
+            this.btnUpdateClass.Click += new System.EventHandler(this.btnUpdateClass_Click);
             // 
             // btnAddClass
             // 
@@ -50,6 +51,7 @@
             this.btnAddClass.TabIndex = 1;
             this.btnAddClass.Text = "Sınıf Ekle";
             this.btnAddClass.UseVisualStyleBackColor = true;
+            this.btnAddClass.Click += new System.EventHandler(this.btnAddClass_Click);
             // 
             // btnClassTeachers
             // 
@@ -59,6 +61,7 @@
             this.btnClassTeachers.TabIndex = 2;
             this.btnClassTeachers.Text = "Sınıf Öğretmenleri";
             this.btnClassTeachers.UseVisualStyleBackColor = true;
+            this.btnClassTeachers.Click += new System.EventHandler(this.btnClassTeachers_Click);
             // 
             // FrmAdminPanel_ClassOperations
             // 

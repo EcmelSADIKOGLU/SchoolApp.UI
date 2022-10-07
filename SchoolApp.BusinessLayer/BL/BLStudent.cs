@@ -12,19 +12,58 @@ namespace SchoolApp.BusinessLayer.BL
     {
         public static List<Student> BLStudentList()
         {
-            return DALStudent.DALStudentList();
+            if (true)
+            {
+                return DALStudent.DALStudentList();
+            }
+            
         }
         public static List<Student> BLStudentListByClass(string Class)
         {
-            return DALStudent.DALStudentListByClass(Class);
+            if (true)
+            {
+                return DALStudent.DALStudentListByClass(Class);
+            }
+            
         }
         public static List<Student> BLStudentListAll()
         {
-            return DALStudent.DALStudentListAll();
+            if (true)
+            {
+                return DALStudent.DALStudentListAll();
+            }
+            
         }
         public static void BLAddStudent(Student student)
         {
-            DALStudent.DALAddStudent(student);
+            if (true)
+            {
+                DALStudent.DALAddStudent(student);
+            }
+            
+        }
+        public static Student BLGetStudentByUserName(string Username)
+        {
+
+            if (true)
+            {
+                return DALStudent.DALGetStudentByUserName(Username);
+            }
+            
+        }
+        public static void BLUpdateStudent(Student student)
+        {
+            if (true)
+            {
+                DALStudent.DALUpdateStudent(student);
+            }
+        }
+        public static void BLDeleteStudent(string Username)
+        {
+            if (true)
+            {
+                DALStudent.DALDeleteStudent(Username);
+            }
         }
     }
 }

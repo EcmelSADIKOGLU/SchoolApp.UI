@@ -21,7 +21,24 @@ namespace SchoolApp.UI.Forms.AdminForms.StudentOperations
         {
             FrmAdminPanel_StudentList frm = new FrmAdminPanel_StudentList();
             frm.ShowDialog();
-            this.Close();
+        }
+
+        private void btnStudentAdd_Click(object sender, EventArgs e)
+        {
+            FrmAdminPanel_AddStudent frm = new FrmAdminPanel_AddStudent();
+            frm.ShowDialog();
+        }
+
+        private void btnStudentUpdate_Click(object sender, EventArgs e)
+        {
+            FrmAdminPanel_UpdateStudent frm = new FrmAdminPanel_UpdateStudent();
+            frm.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmAdminPanel_DeleteStudent frm = new FrmAdminPanel_DeleteStudent();
+            frm.ShowDialog();
         }
     }
 }

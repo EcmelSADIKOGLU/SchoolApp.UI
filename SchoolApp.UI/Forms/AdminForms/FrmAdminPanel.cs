@@ -29,7 +29,25 @@ namespace SchoolApp.UI.Forms.AdminForms
         {
             StudentOperations.FrmAdminPanel_StudentOperations frm = new StudentOperations.FrmAdminPanel_StudentOperations();
             frm.Show();
-            this.Hide();
+        }
+
+        private void btnTeacherOperations_Click(object sender, EventArgs e)
+        {
+            TeacherOperations.FrmAdminPanel_TeacherOperations frm = new TeacherOperations.FrmAdminPanel_TeacherOperations();
+            frm.Show();
+
+        }
+
+        private void btnClassOperations_Click(object sender, EventArgs e)
+        {
+            ClassOperations.FrmAdminPanel_ClassOperations frm = new ClassOperations.FrmAdminPanel_ClassOperations();
+            frm.Show();
+        }
+
+        private void btnExamOperations_Click(object sender, EventArgs e)
+        {
+            ExamOperations.FrmAdminPanel_ExamOperations frm = new ExamOperations.FrmAdminPanel_ExamOperations();
+            frm.Show();
         }
     }
 }

@@ -37,9 +37,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtSurname = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.btnUpdateName = new System.Windows.Forms.Button();
-            this.btnUpdateSurname = new System.Windows.Forms.Button();
-            this.btnUpdateClass = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnGetStudent
@@ -50,6 +48,7 @@
             this.btnGetStudent.TabIndex = 0;
             this.btnGetStudent.Text = "Bul";
             this.btnGetStudent.UseVisualStyleBackColor = true;
+            this.btnGetStudent.Click += new System.EventHandler(this.btnGetStudent_Click);
             // 
             // txtUserName
             // 
@@ -116,41 +115,22 @@
             this.label4.TabIndex = 9;
             this.label4.Text = "Sınıfı :";
             // 
-            // btnUpdateName
+            // btnUpdate
             // 
-            this.btnUpdateName.Location = new System.Drawing.Point(347, 144);
-            this.btnUpdateName.Name = "btnUpdateName";
-            this.btnUpdateName.Size = new System.Drawing.Size(106, 33);
-            this.btnUpdateName.TabIndex = 10;
-            this.btnUpdateName.Text = "Güncelle";
-            this.btnUpdateName.UseVisualStyleBackColor = true;
-            // 
-            // btnUpdateSurname
-            // 
-            this.btnUpdateSurname.Location = new System.Drawing.Point(347, 188);
-            this.btnUpdateSurname.Name = "btnUpdateSurname";
-            this.btnUpdateSurname.Size = new System.Drawing.Size(106, 33);
-            this.btnUpdateSurname.TabIndex = 11;
-            this.btnUpdateSurname.Text = "Güncelle";
-            this.btnUpdateSurname.UseVisualStyleBackColor = true;
-            // 
-            // btnUpdateClass
-            // 
-            this.btnUpdateClass.Location = new System.Drawing.Point(347, 228);
-            this.btnUpdateClass.Name = "btnUpdateClass";
-            this.btnUpdateClass.Size = new System.Drawing.Size(106, 33);
-            this.btnUpdateClass.TabIndex = 12;
-            this.btnUpdateClass.Text = "Güncelle";
-            this.btnUpdateClass.UseVisualStyleBackColor = true;
+            this.btnUpdate.Location = new System.Drawing.Point(235, 267);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(106, 33);
+            this.btnUpdate.TabIndex = 12;
+            this.btnUpdate.Text = "Güncelle";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // FrmAdminPanel_UpdateStudent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(504, 320);
-            this.Controls.Add(this.btnUpdateClass);
-            this.Controls.Add(this.btnUpdateSurname);
-            this.Controls.Add(this.btnUpdateName);
+            this.ClientSize = new System.Drawing.Size(405, 342);
+            this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtSurname);
@@ -164,6 +144,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmAdminPanel_UpdateStudent";
             this.Text = "FrmAdminPanel_UpdateStudent";
+            this.Load += new System.EventHandler(this.FrmAdminPanel_UpdateStudent_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -180,8 +161,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtSurname;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button btnUpdateName;
-        private System.Windows.Forms.Button btnUpdateSurname;
-        private System.Windows.Forms.Button btnUpdateClass;
+        private System.Windows.Forms.Button btnUpdate;
     }
 }

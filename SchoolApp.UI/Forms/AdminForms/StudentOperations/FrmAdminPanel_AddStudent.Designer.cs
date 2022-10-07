@@ -69,6 +69,7 @@
             this.btnAdd.TabIndex = 3;
             this.btnAdd.Text = "Ekle";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // txtSurname
             // 
@@ -111,6 +112,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmAdminPanel_AddStudent";
             this.Text = "FrmAdminPanel_AddStudent";
+            this.Load += new System.EventHandler(this.FrmAdminPanel_AddStudent_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

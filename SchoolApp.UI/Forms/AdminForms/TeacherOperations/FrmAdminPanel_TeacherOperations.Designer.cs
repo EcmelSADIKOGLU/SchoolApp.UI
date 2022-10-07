@@ -42,6 +42,7 @@
             this.btnTeacherList.TabIndex = 0;
             this.btnTeacherList.Text = "Öğretmen Listesi";
             this.btnTeacherList.UseVisualStyleBackColor = true;
+            this.btnTeacherList.Click += new System.EventHandler(this.btnTeacherList_Click);
             // 
             // btnAddTeacher
             // 
@@ -51,6 +52,7 @@
             this.btnAddTeacher.TabIndex = 1;
             this.btnAddTeacher.Text = "Öğretmen Ekle";
             this.btnAddTeacher.UseVisualStyleBackColor = true;
+            this.btnAddTeacher.Click += new System.EventHandler(this.btnAddTeacher_Click);
             // 
             // btnUpdateTeacher
             // 
@@ -60,6 +62,7 @@
             this.btnUpdateTeacher.TabIndex = 2;
             this.btnUpdateTeacher.Text = "Öğretmen Güncelle";
             this.btnUpdateTeacher.UseVisualStyleBackColor = true;
+            this.btnUpdateTeacher.Click += new System.EventHandler(this.btnUpdateTeacher_Click);
             // 
             // btnDeleteTeacher
             // 
@@ -69,8 +72,9 @@
             this.btnDeleteTeacher.TabIndex = 3;
             this.btnDeleteTeacher.Text = "Öğretmen Sil";
             this.btnDeleteTeacher.UseVisualStyleBackColor = true;
+            this.btnDeleteTeacher.Click += new System.EventHandler(this.btnDeleteTeacher_Click);
             // 
-            // FrmAdminPanel_StudentOperations
+            // FrmAdminPanel_TeacherOperations
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -81,7 +85,7 @@
             this.Controls.Add(this.btnTeacherList);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "FrmAdminPanel_StudentOperations";
+            this.Name = "FrmAdminPanel_TeacherOperations";
             this.Text = "FrmAdminPanel_StudentOperations";
             this.ResumeLayout(false);
 

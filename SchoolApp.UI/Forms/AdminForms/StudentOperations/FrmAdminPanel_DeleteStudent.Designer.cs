@@ -53,6 +53,7 @@
             this.btnGet.TabIndex = 1;
             this.btnGet.Text = "Bul";
             this.btnGet.UseVisualStyleBackColor = true;
+            this.btnGet.Click += new System.EventHandler(this.btnGet_Click);
             // 
             // txtUserName
             // 
@@ -64,11 +65,11 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(30, 30);
+            this.dataGridView1.Location = new System.Drawing.Point(30, 23);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(559, 74);
+            this.dataGridView1.Size = new System.Drawing.Size(559, 89);
             this.dataGridView1.TabIndex = 3;
             // 
             // btnDelete
@@ -79,6 +80,7 @@
             this.btnDelete.TabIndex = 4;
             this.btnDelete.Text = "Sil";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // FrmAdminPanel_DeleteStudent
             // 

@@ -22,7 +22,7 @@ namespace SchoolApp.UI.Forms.LoginForms
         {
             if (BLAdmin.BLisAdmin(txtUserName.Text, txtPassword.Text))
             {
-                Forms.AdminForms.FrmAdminPanel frmAdminPanel = new Forms.AdminForms.FrmAdminPanel(BLAdmin.BLGetAdmin(txtUserName.Text));
+                AdminForms.FrmAdminPanel frmAdminPanel = new AdminForms.FrmAdminPanel(BLAdmin.BLGetAdmin(txtUserName.Text));
                 frmAdminPanel.Show();
                 this.Hide();
             }
