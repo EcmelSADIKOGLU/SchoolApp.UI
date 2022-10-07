@@ -172,6 +172,42 @@
     <Compile Include="Forms\LoginForms\FrmTeacherLogin.Designer.cs">
       <DependentUpon>FrmTeacherLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\StudentForms\FrmStudentPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StudentForms\FrmStudentPanel.Designer.cs">
+      <DependentUpon>FrmStudentPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StudentForms\FrmStudentPanel_LessonNotes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StudentForms\FrmStudentPanel_LessonNotes.Designer.cs">
+      <DependentUpon>FrmStudentPanel_LessonNotes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StudentForms\FrmStudentPanel_Lessons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StudentForms\FrmStudentPanel_Lessons.Designer.cs">
+      <DependentUpon>FrmStudentPanel_Lessons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StudentForms\FrmStudentPanel_Profil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StudentForms\FrmStudentPanel_Profil.Designer.cs">
+      <DependentUpon>FrmStudentPanel_Profil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StudentForms\FrmStudentPanel_UpdateMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StudentForms\FrmStudentPanel_UpdateMail.Designer.cs">
+      <DependentUpon>FrmStudentPanel_UpdateMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StudentForms\FrmStudentPanel_UpdatePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StudentForms\FrmStudentPanel_UpdatePassword.Designer.cs">
+      <DependentUpon>FrmStudentPanel_UpdatePassword.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\AdminForms\ClassOperations\FrmAdminPanel_AddClass.resx">
@@ -236,6 +272,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\LoginForms\FrmTeacherLogin.resx">
       <DependentUpon>FrmTeacherLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StudentForms\FrmStudentPanel.resx">
+      <DependentUpon>FrmStudentPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StudentForms\FrmStudentPanel_LessonNotes.resx">
+      <DependentUpon>FrmStudentPanel_LessonNotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StudentForms\FrmStudentPanel_Lessons.resx">
+      <DependentUpon>FrmStudentPanel_Lessons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StudentForms\FrmStudentPanel_Profil.resx">
+      <DependentUpon>FrmStudentPanel_Profil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StudentForms\FrmStudentPanel_UpdateMail.resx">
+      <DependentUpon>FrmStudentPanel_UpdateMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StudentForms\FrmStudentPanel_UpdatePassword.resx">
+      <DependentUpon>FrmStudentPanel_UpdatePassword.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
