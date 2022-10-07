@@ -47,7 +47,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(74, 75);
+            this.label1.Location = new System.Drawing.Point(80, 85);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(48, 25);
             this.label1.TabIndex = 0;
@@ -55,7 +55,7 @@
             // 
             // btnUpdateMail
             // 
-            this.btnUpdateMail.Location = new System.Drawing.Point(132, 236);
+            this.btnUpdateMail.Location = new System.Drawing.Point(138, 246);
             this.btnUpdateMail.Name = "btnUpdateMail";
             this.btnUpdateMail.Size = new System.Drawing.Size(98, 36);
             this.btnUpdateMail.TabIndex = 2;
@@ -65,7 +65,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(42, 115);
+            this.label2.Location = new System.Drawing.Point(48, 125);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(80, 25);
             this.label2.TabIndex = 3;
@@ -74,7 +74,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(61, 155);
+            this.label3.Location = new System.Drawing.Point(67, 165);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(61, 25);
             this.label3.TabIndex = 4;
@@ -83,7 +83,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(43, 196);
+            this.label4.Location = new System.Drawing.Point(49, 206);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 25);
             this.label4.TabIndex = 5;
@@ -92,7 +92,7 @@
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(129, 75);
+            this.lblName.Location = new System.Drawing.Point(135, 85);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(37, 25);
             this.lblName.TabIndex = 6;
@@ -101,7 +101,7 @@
             // lblSurname
             // 
             this.lblSurname.AutoSize = true;
-            this.lblSurname.Location = new System.Drawing.Point(129, 115);
+            this.lblSurname.Location = new System.Drawing.Point(135, 125);
             this.lblSurname.Name = "lblSurname";
             this.lblSurname.Size = new System.Drawing.Size(69, 25);
             this.lblSurname.TabIndex = 7;
@@ -110,7 +110,7 @@
             // lblClass
             // 
             this.lblClass.AutoSize = true;
-            this.lblClass.Location = new System.Drawing.Point(129, 155);
+            this.lblClass.Location = new System.Drawing.Point(135, 165);
             this.lblClass.Name = "lblClass";
             this.lblClass.Size = new System.Drawing.Size(50, 25);
             this.lblClass.TabIndex = 8;
@@ -119,7 +119,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(43, 295);
+            this.label5.Location = new System.Drawing.Point(49, 305);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(79, 25);
             this.label5.TabIndex = 11;
@@ -127,7 +127,7 @@
             // 
             // btnUpdatePassword
             // 
-            this.btnUpdatePassword.Location = new System.Drawing.Point(132, 334);
+            this.btnUpdatePassword.Location = new System.Drawing.Point(138, 344);
             this.btnUpdatePassword.Name = "btnUpdatePassword";
             this.btnUpdatePassword.Size = new System.Drawing.Size(98, 36);
             this.btnUpdatePassword.TabIndex = 10;
@@ -137,7 +137,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(30, 39);
+            this.label6.Location = new System.Drawing.Point(36, 49);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(92, 25);
             this.label6.TabIndex = 12;
@@ -146,7 +146,7 @@
             // lblUserName
             // 
             this.lblUserName.AutoSize = true;
-            this.lblUserName.Location = new System.Drawing.Point(129, 39);
+            this.lblUserName.Location = new System.Drawing.Point(135, 49);
             this.lblUserName.Name = "lblUserName";
             this.lblUserName.Size = new System.Drawing.Size(81, 25);
             this.lblUserName.TabIndex = 13;
@@ -155,7 +155,7 @@
             // lblMail
             // 
             this.lblMail.AutoSize = true;
-            this.lblMail.Location = new System.Drawing.Point(129, 199);
+            this.lblMail.Location = new System.Drawing.Point(135, 209);
             this.lblMail.Name = "lblMail";
             this.lblMail.Size = new System.Drawing.Size(68, 25);
             this.lblMail.TabIndex = 14;
@@ -164,7 +164,7 @@
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Location = new System.Drawing.Point(127, 295);
+            this.lblPassword.Location = new System.Drawing.Point(133, 305);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(68, 25);
             this.lblPassword.TabIndex = 15;
@@ -174,7 +174,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(626, 431);
+            this.ClientSize = new System.Drawing.Size(498, 431);
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.lblMail);
             this.Controls.Add(this.lblUserName);
